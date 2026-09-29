@@ -1,2 +1,11 @@
-# agent-architectures-series
-Runnable examples for the Agent 架构按问题选 article series
+# Agent 架构按问题选：系列文章配套代码
+
+本仓库统一存放《Agent 架构按问题选》系列的可运行示例。每篇文章对应一个编号目录。文章正文只展示解释原理必需的代码，完整脚本、教学数据与复现说明放在这里。
+
+| 篇号 | 目录 | 内容 |
+| --- | --- | --- |
+| 01 | [01-tool-use-react](01-tool-use-react/) | 两个只读笔记工具与有限步 Agent 循环；文章同时讲解 ReAct 的观察后决策 |
+
+所有 `notes/` 文件都是虚构的教学样本。第 01 篇用 Python 标准库访问本机 Ollama，不依赖 LangChain 或 LangGraph。后续篇目会在各自目录保存可独立运行的版本，并说明相对前一篇的变化。
+
+示例用于教学。它们的读文件限制和无证据拒答检查有明确边界，不能仅凭运行成功就部署为生产服务。
