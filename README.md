@@ -5,6 +5,7 @@
 | 篇号 | 目录 | 内容 |
 | --- | --- | --- |
 | 01 | [01-tool-use-react](01-tool-use-react/) | 两个只读笔记工具与有限步 Agent 循环；文章同时讲解 ReAct 的观察后决策 |
+| 02 | [02-planning-pev](02-planning-pev/) | 固定目标、模型规划与计划结束后补目标的对照；逐项检查两份样本笔记 |
 
 所有 `notes/` 文件都是虚构的教学样本。第 01 篇用 Python 标准库访问本机 Ollama，不依赖 LangChain 或 LangGraph。后续篇目会在各自目录保存可独立运行的版本，并说明相对前一篇的变化。
 
